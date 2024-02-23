@@ -1,0 +1,146 @@
+
+
+.namdhinggo-regular {
+  font-family: "Namdhinggo", serif;
+  font-weight: 400;
+  font-style: normal;
+    font-size: 90px;
+}
+
+.namdhinggo-extrabold {
+  font-family: "Namdhinggo", serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.letter-spacing-4px {
+	letter-spacing: 4px;
+}
+
+.bg-dark-primary {
+	background-color: #182430;
+}
+
+.bg-dark-secondary {
+	background-color: #071116;
+}
+
+.background {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+#showcase-background-1 {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+		url("Photo/photo4.jpg");
+        
+	height: 800px;
+}
+
+#showcase-background-2 {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+		url("Photo/photo1.jpg");
+}
+.btn-gradient {
+	background: #00008b;
+	border: 1px solid rgba(72, 48, 48, 0.5);
+}
+.cover {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.grid {
+	display: grid;
+}
+
+.grid-center {
+	place-items: center;
+}
+
+.text-red {
+	color: #FFFFFF;
+}
+
+.text-blue {
+    color: #00008b;
+    font-size: 40px;
+}
+
+a.text-red:hover {
+	color: #00008b;
+}
+
+.btn-outline-red {
+	border: 1px solid #00008b;
+	background: transparent;
+}
+
+.form-outline-gray {
+	display: block;
+	width: 100%;
+	font-size: 1rem;
+	line-height: 1.5;
+	background: transparent;
+	padding: 0.375rem 0.75rem;
+	outline: 0;
+	border: none;
+	border-radius: 0px;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+	color: #00008b;
+	transition: border-color 0.15s ease-in-out;
+}
+
+.form-outline-gray:focus,
+.form-outline-gray:active {
+	border-color: #00008b;
+}
+
+.form-outline-gray:focus ~ .label-absolute,
+.form-outline-gray:valid ~ .label-absolute {
+	color: #00008b;
+	top: -1.1rem;
+	left: 0;
+	-webkit-transform: scale(0.8);
+	transform: scale(0.8);
+}
+
+.label-absolute {
+	position: absolute;
+	top: 0.5rem;
+	left: 0.8rem;
+	color: #f2f4f3;
+	-webkit-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+	color: rgba(255, 255, 255, 0.5);
+}
+
+.hr-red {
+	display: inline-block;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	border: 0;
+	border-top: 3px #00008b;
+	width: 15em;
+}
+
+.position-center {
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.position-bottom {
+	bottom: 1rem;
+}
+
+.h-500px {
+	height: 300px;
+}
